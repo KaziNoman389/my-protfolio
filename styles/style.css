@@ -536,3 +536,137 @@
 
     border-radius: 21px;
 }
+
+/* Support Section */
+
+#support {
+    /* Frame 8 */
+    position: absolute;
+    width: 1423px;
+    height: 255px;
+    left: 200px;
+    right: 200px;
+    top: 4250px;
+    bottom: 238px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px 64px 48px;
+
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("../assets/images/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#support-content {
+    /* Frame 6 */
+    position: static;
+    width: 1392px;
+    height: 150px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#support-title {
+    /* I need Support */
+    position: static;
+    width: 306px;
+    height: 48px;
+    margin-bottom: 16px;
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#support-description {
+    position: static;
+    width: 808px;
+    height: 69px;
+
+    opacity: 0.7;
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#support-footer {
+    position: static;
+    width: 1392px;
+    height: 150px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#message {
+    position: static;
+    width: 730px;
+    height: 76px;
+    padding: 25px 26px 25px 26px;
+    font-size: 18px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+}
+
+#message_submit {
+    /* Frame 8 */
+    position: static;
+    width: 160px;
+    height: 77px;
+    font-size: 22px;
+    padding: 22px 26px 22px 26px;
+
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+
+#support-btn-text {
+    /* Submit */
+    position: static;
+    width: 106px;
+    height: 32px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}

@@ -455,3 +455,84 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+/* Inspiration Section */
+
+#inspiration {
+    /* Frame 15 */
+    position: absolute;
+    width: 1520px;
+    height: 1036px;
+    left: 197px;
+    right: 202px;
+    top: 3120px;
+    bottom: 2837px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.inspiration-description {
+    position: static;
+    width: 1136px;
+    height: 69px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    margin-bottom: 16px;
+
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#frame-link {
+    /* Frame 14 */
+    position: static;
+    width: 1520px;
+    height: 818px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 64px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 21px;
+}
+
+#frame-link iframe {
+    position: static;
+    width: 1450px;
+    height: 733px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 13px 0px;
+
+    border-radius: 21px;
+}
